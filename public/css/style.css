@@ -1,0 +1,214 @@
+@import url(normalize.css);
+
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.barra{
+    background-color: #EAC926;
+    padding: 1rem;
+    display: flex;
+    
+}
+.box2{
+    
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    .titulo-head{
+     text-align:end ;
+    }
+
+    #logo{
+        width:600px;
+        height: 120px;
+        max-width: 50%;
+        display: flex;
+      }
+
+    .burger-menu{
+ 
+        background-color: #1259c3;
+        width: 12%;
+        height: 11%;
+        padding: 2%;
+        border-radius: 15%;
+        margin: 70%;
+        margin-block: 2%;
+        color: white;
+        font-size: 150%;
+        text-align: center;         
+      }
+      .lista1{
+
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 45%;
+        
+      }
+
+      .lista2{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 45%;
+    
+  }
+  .enlaces {
+display: flex;
+justify-content: safe;
+
+  }
+
+      ul li{
+        list-style-type: none;
+        
+       }
+       .enlaces{
+        flex-direction: row;
+        display: inline-flex;
+        font-size: 12px;
+       }
+
+#banner{
+  max-width: 100%;
+
+}
+
+main {
+   width: 90%;
+
+}
+
+       
+body{
+    background-color: #ebebeb;
+    width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
+.flex-container{
+ display: inline-flex;
+
+
+}
+     article{
+          margin-top: 200px;
+          background-color: white;
+          border: 1px solid black;
+          width: 20%;
+          height: 30%;
+          margin: 15px;
+          text-align: center;
+         
+   
+
+     }
+     
+     h2{
+         font-size: 24px;
+         text-align: center;
+         margin-top: 60px;
+     }
+
+     .precio{
+         font-size: 18px;
+         background-color: white;
+     }
+
+     .descuentos{
+         font-size: 16px;
+         background-color: white;
+
+     }
+
+     .descripcion{
+         font-size: 16px;
+         background-color: white;
+     }
+
+     
+     .icono{
+         width: 75%;
+         height: 75%;
+         display:block;
+         margin-left: auto;
+         margin-right: auto;
+        }
+
+.icono-recuadro{
+ max-width: 50vw;
+ 
+}
+
+footer{
+    display: inline-block;
+    text-align: center;
+    font-size: 70%;
+    justify-content: space-between;
+}
+.divisor-footer{
+    width: 30%;
+    text-align: center;
+    margin: 20px;
+
+}
+
+
+.icono-footer{
+    width: 2em;
+    margin-bottom: 10px;
+ }
+
+     h4{
+        text-align: center;
+      }      
+
+     p{
+
+       background-color: #ebebeb;
+       text-align: center;
+      }
+    .footer{
+        margin-left: 400px;
+        max-height: fit-content;
+
+    }
+    .copy-footer{
+
+        text-align: center;
+    }
+
+
+    @media (min-width: 769px){
+
+        .burger-menu{
+            display: none;
+        }
+        .box1{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            }
+
+            footer{
+                display: flex;
+                flex-wrap: nowrap;
+                flex-wrap: wrap;
+                font-size: 80%;
+                justify-content: space-between;
+            }
+
+    }
