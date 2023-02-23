@@ -8,4 +8,6 @@ app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "./views/home.html")); //para visualizar en el servidor
 });
 
-app.listen(3000, () => console.log("Servidor corriendo en el puerto 3000"));
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => console.log("Servidor corriendo en el puerto" + port));
